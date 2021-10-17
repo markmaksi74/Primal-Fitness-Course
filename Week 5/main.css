@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: #fbbe4e;
+    font-family: 'Roboto', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.course {
+    background-color: #fbbe4e;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    margin: 1rem;
+}
+
+
+p {
+    margin-bottom: 0;
+    color: black;
+    font-family: 'Roboto'
+}
+
+
+ul {
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #fbbe4e;
+    margin-top: 10rem;
+}
+
+.breadcrumb-item {
+    color: black;
+}
+
+.accordion-button {
+    font-weight: 650;
+}
